@@ -1,0 +1,63 @@
+AI-Generated Code License
+
+Copyright (c) 2024 Lock Screen Mirror Project
+
+This project contains AI-generated code and is provided for educational and personal use only.
+
+TERMS AND CONDITIONS:
+
+1. DEFINITIONS
+   "AI-generated code" refers to source code, algorithms, and implementation logic
+   that were partially or fully generated using artificial intelligence tools and
+   services, including but not limited to Claude (Anthropic), ChatGPT (OpenAI),
+   GitHub Copilot, or similar AI coding assistants.
+
+2. PERMITTED USES
+   - Personal learning and educational purposes
+   - Non-commercial research and development
+   - Code review and study of AI-generated implementations
+   - Modification for personal experimentation
+
+3. PROHIBITED USES
+   - Commercial use in any form
+   - Redistribution in commercial products or services
+   - Selling, licensing, or monetizing the code or derivatives
+   - Use in production environments for business purposes
+   - Removal of this license or AI-generation notices
+
+4. ATTRIBUTION REQUIREMENTS
+   Any use or derivative work must:
+   - Retain this license file
+   - Clearly indicate which portions are AI-generated
+   - Not claim sole authorship of AI-generated components
+
+5. NO WARRANTY
+   This software is provided "as is", without warranty of any kind, express or
+   implied, including but not limited to the warranties of merchantability,
+   fitness for a particular purpose and noninfringement. In no event shall the
+   authors or copyright holders be liable for any claim, damages or other
+   liability, whether in an action of contract, tort or otherwise, arising from,
+   out of or in connection with the software or the use or other dealings in the
+   software.
+
+6. AI CODE DISCLAIMER
+   Users should be aware that:
+   - AI-generated code may contain errors or security vulnerabilities
+   - The logic may not follow best practices in all cases
+   - Performance optimization may not be optimal
+   - Testing coverage may be incomplete
+   - Users should review and validate all code before any use
+
+7. INTELLECTUAL PROPERTY
+   The AI-generated portions of this code exist in a unique intellectual property
+   space. While human-authored portions remain copyrighted by the authors, the
+   AI-generated portions may be subject to different legal frameworks depending
+   on jurisdiction. This license attempts to provide clear usage terms while
+   acknowledging this complexity.
+
+8. COMMERCIAL LICENSING
+   For commercial use inquiries, contact the project maintainers to discuss
+   separate licensing arrangements.
+
+By using this software, you acknowledge that you have read this license,
+understand it, and agree to be bound by its terms and conditions.

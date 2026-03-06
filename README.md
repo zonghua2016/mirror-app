@@ -1,5 +1,7 @@
 # Lock Screen Mirror
 
+[中文文档](README_zh.md) | [English](README.md)
+
 Native iOS app (SwiftUI + AVFoundation + Vision) for quick mirror preview with lock screen and system entry points.
 
 ![capture](https://p0.ssl.qhimg.com/t110b9a93010769bef6351f614f.png)
@@ -67,6 +69,17 @@ Native iOS app (SwiftUI + AVFoundation + Vision) for quick mirror preview with l
    - Create/use shortcut `Open Mirror` from this app.
    - Assign that shortcut to Action Button in Settings.
    - Press Action Button and confirm app opens mirror page.
+
+## AI-Generated Code Notice
+
+⚠️ **This project contains AI-generated code and is NOT licensed for commercial use.**
+
+This codebase includes components generated with artificial intelligence assistance (Claude, ChatGPT, GitHub Copilot, or similar tools). The code is provided for:
+- Educational purposes
+- Personal learning and experimentation
+- Non-commercial research
+
+**Commercial use is strictly prohibited without explicit permission.** See [LICENSE](LICENSE) for full terms.
 
 ## Known platform limits
 - Third-party apps cannot intercept or override Apple Camera private lock-screen rendering pipeline.
