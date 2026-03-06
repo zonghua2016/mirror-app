@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016B7FC92F935DD9AA6CC829 /* StartMirrorCaptureIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E78FC11F0B44DD0C601F281 /* StartMirrorCaptureIntent.swift */; };
+		23008ED57B001976A9384316 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C72DDE81B9E566014DDEA9 /* SceneDelegate.swift */; };
+		272C796CA7BC7DBF16ED00EC /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088C00A6523DCF7298590D8A /* AppIntents.framework */; };
+		2AFDF4B4068CD15D002C7C4A /* MirrorShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEC014567F95DB0D616958 /* MirrorShapeStyle.swift */; };
+		301C927E672396A4302D8571 /* LockScreenMirrorWidgetsExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D5E2BE6BA946B9A141858C7C /* LockScreenMirrorWidgetsExtension.appex */; };
+		387AC3A928CE7C1B7E53705C /* MirrorCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0D43415CF23D40A996A6EF /* MirrorCaptureView.swift */; };
+		3D74229771CAC32B84D62E34 /* LockedCameraCapture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D38D175CC82F9DBFBA0747C0 /* LockedCameraCapture.framework */; };
+		3DB6C122BFB4456D556188B0 /* FaceTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA32539655188C7B0F81C3 /* FaceTrackingManager.swift */; };
+		3E61294BA732D078BC5C72D6 /* MirrorLiveActivityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14252C2F31731F152ED4A /* MirrorLiveActivityModels.swift */; };
+		40A8C7054A25F740384ECA10 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088C00A6523DCF7298590D8A /* AppIntents.framework */; };
+		40DAD14886D26AA10B7DCCCC /* MirrorSharedConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A76B3C87CD2054220C783 /* MirrorSharedConfig.swift */; };
+		4525AB0CDDD1F08DD5F3921A /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6B781D16C0334719163E8C /* WidgetKit.framework */; };
+		5336D62CD1B36949E831DC95 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63971452460D2016B758BE4 /* AVFoundation.framework */; };
+		5745F6CFF9A8148D02D08282 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B31AD18762CCD38DE08DEC /* CameraPreviewView.swift */; };
+		5A17605DF540FCA6480B42BB /* FaceTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EAA32539655188C7B0F81C3 /* FaceTrackingManager.swift */; };
+		5B5663B9BCD3BF7A7AD04328 /* MirrorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14167D5911D0E70ACF2AAD0E /* MirrorViewModel.swift */; };
+		5C9A2D88D96DC6937664727C /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088C00A6523DCF7298590D8A /* AppIntents.framework */; };
+		5DB7AE3532450D8DB070B32F /* MirrorShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEC014567F95DB0D616958 /* MirrorShapeStyle.swift */; };
+		723AB66B8B141D2FCE59F17F /* MirrorIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7201D975F966C7DE51FE0961 /* MirrorIntents.swift */; };
+		72B0C0433B87824344222B53 /* MirrorScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6E5593704BE6DD2196300F /* MirrorScreenView.swift */; };
+		73DDCF8F1E1F86FEE17109D6 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188FEBD3F05A401D9C1E0A3A /* AppCoordinator.swift */; };
+		7A2B07BD2AAC8CDB43BDBB0D /* StartMirrorCaptureIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E78FC11F0B44DD0C601F281 /* StartMirrorCaptureIntent.swift */; };
+		7C8B8D035267A26220092D01 /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E91C6453A671A909EA3DA44 /* ActivityKit.framework */; };
+		8025E3948ED0396ECE2CEDDE /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E91C6453A671A909EA3DA44 /* ActivityKit.framework */; };
+		824E4D5D6AF711F4AE357E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF1144CEF591B6853C6E0BE /* AppDelegate.swift */; };
+		8845DE46DBD6B4164D8D7843 /* MirrorShapeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EEC014567F95DB0D616958 /* MirrorShapeStyle.swift */; };
+		8C0D652F47FA5E23B946794A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8AEC4E8A8D398435666EFC /* Foundation.framework */; };
+		8F4B592B552D42FAC1EE0F83 /* MirrorOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED1E05236090311AB5D937 /* MirrorOverlay.swift */; };
+		91A213A5386D7F92806AB13D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30787DCF807B60858E1FE081 /* Assets.xcassets */; };
+		92F75AA0883A318F080D84E9 /* StartMirrorCaptureIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E78FC11F0B44DD0C601F281 /* StartMirrorCaptureIntent.swift */; };
+		9F5BF14EE293B6A67E49CCD7 /* MirrorWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2681DFAF08A3C2E07631947 /* MirrorWidgets.swift */; };
+		9FF535AE78C7498EE7B2D2AF /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF68F793761A0CADF937F271 /* Vision.framework */; };
+		A266183A49822890B19ECFB7 /* CameraSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E83724D91D40B37ABC4F4A /* CameraSessionController.swift */; };
+		A3E165C072D449993C8766D3 /* MirrorOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED1E05236090311AB5D937 /* MirrorOverlay.swift */; };
+		A873F9D9E38C9BB760E133C5 /* CameraSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E83724D91D40B37ABC4F4A /* CameraSessionController.swift */; };
+		C3F1238799F3283742A238B0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A63971452460D2016B758BE4 /* AVFoundation.framework */; };
+		CC78EE71180B15C3AB273DB5 /* MirrorLiveActivityModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F14252C2F31731F152ED4A /* MirrorLiveActivityModels.swift */; };
+		CCE570BD41C10D396A1CF677 /* LockScreenMirrorCaptureExtension.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = B3C3485364ECE2976B5A542A /* LockScreenMirrorCaptureExtension.appex */; };
+		D2B3673B982377AFE46FE988 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF68F793761A0CADF937F271 /* Vision.framework */; };
+		DAEB3271C365B3974D454FDC /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B31AD18762CCD38DE08DEC /* CameraPreviewView.swift */; };
+		DCA41018501133510A5004F2 /* MirrorSharedConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362A76B3C87CD2054220C783 /* MirrorSharedConfig.swift */; };
+		E315107F1A706BA160AB8288 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8AEC4E8A8D398435666EFC /* Foundation.framework */; };
+		EFEF49A9D95E2E9E066618F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8AEC4E8A8D398435666EFC /* Foundation.framework */; };
+		F024C6F26A214E1C76C4EFA1 /* MirrorLiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B49A5ECFC42CCB5B833825 /* MirrorLiveActivityManager.swift */; };
+		F54BCEE8FC664818FECA7478 /* LockScreenMirrorCaptureExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FE6A138811784643F398EF /* LockScreenMirrorCaptureExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81F49CF7670333FF8396FDC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E9FA1029A301AFCE5B2A402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 338F05344EAEDDFE24A88817;
+			remoteInfo = LockScreenMirrorCaptureExtension;
+		};
+		903FB92C122987446D424FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E9FA1029A301AFCE5B2A402 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93E7AF5F47A4344349C80FC;
+			remoteInfo = LockScreenMirrorWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD8310B0437B22D6EC5C683F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				301C927E672396A4302D8571 /* LockScreenMirrorWidgetsExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C35E5ECBE1DF5167BFC54FED /* Embed ExtensionKit Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				CCE570BD41C10D396A1CF677 /* LockScreenMirrorCaptureExtension.appex in Embed ExtensionKit Extensions */,
+			);
+			name = "Embed ExtensionKit Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07F14252C2F31731F152ED4A /* MirrorLiveActivityModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorLiveActivityModels.swift; sourceTree = "<group>"; };
+		088C00A6523DCF7298590D8A /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = System/Library/Frameworks/AppIntents.framework; sourceTree = "<group>"; };
+		0B8AEC4E8A8D398435666EFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		14167D5911D0E70ACF2AAD0E /* MirrorViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorViewModel.swift; sourceTree = "<group>"; };
+		188FEBD3F05A401D9C1E0A3A /* AppCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2E78FC11F0B44DD0C601F281 /* StartMirrorCaptureIntent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartMirrorCaptureIntent.swift; sourceTree = "<group>"; };
+		30787DCF807B60858E1FE081 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		362A76B3C87CD2054220C783 /* MirrorSharedConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorSharedConfig.swift; sourceTree = "<group>"; };
+		5B0D43415CF23D40A996A6EF /* MirrorCaptureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorCaptureView.swift; sourceTree = "<group>"; };
+		5D34858A6DA5220071E5318D /* LockScreenMirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockScreenMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7201D975F966C7DE51FE0961 /* MirrorIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorIntents.swift; sourceTree = "<group>"; };
+		7B6B781D16C0334719163E8C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = "<group>"; };
+		7CF1144CEF591B6853C6E0BE /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82C72DDE81B9E566014DDEA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83FE6A138811784643F398EF /* LockScreenMirrorCaptureExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LockScreenMirrorCaptureExtension.swift; sourceTree = "<group>"; };
+		8C6E5593704BE6DD2196300F /* MirrorScreenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorScreenView.swift; sourceTree = "<group>"; };
+		9E91C6453A671A909EA3DA44 /* ActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActivityKit.framework; path = System/Library/Frameworks/ActivityKit.framework; sourceTree = "<group>"; };
+		9EAA32539655188C7B0F81C3 /* FaceTrackingManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FaceTrackingManager.swift; sourceTree = "<group>"; };
+		A63971452460D2016B758BE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = "<group>"; };
+		B3C3485364ECE2976B5A542A /* LockScreenMirrorCaptureExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = LockScreenMirrorCaptureExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCED1E05236090311AB5D937 /* MirrorOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorOverlay.swift; sourceTree = "<group>"; };
+		BF68F793761A0CADF937F271 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = "<group>"; };
+		C2681DFAF08A3C2E07631947 /* MirrorWidgets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorWidgets.swift; sourceTree = "<group>"; };
+		C3B49A5ECFC42CCB5B833825 /* MirrorLiveActivityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorLiveActivityManager.swift; sourceTree = "<group>"; };
+		D1B31AD18762CCD38DE08DEC /* CameraPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		D38D175CC82F9DBFBA0747C0 /* LockedCameraCapture.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LockedCameraCapture.framework; path = System/Library/Frameworks/LockedCameraCapture.framework; sourceTree = "<group>"; };
+		D5E2BE6BA946B9A141858C7C /* LockScreenMirrorWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LockScreenMirrorWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E83724D91D40B37ABC4F4A /* CameraSessionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraSessionController.swift; sourceTree = "<group>"; };
+		E1EEC014567F95DB0D616958 /* MirrorShapeStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MirrorShapeStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A73DC01FCE814ED6C2EC4C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0D652F47FA5E23B946794A /* Foundation.framework in Frameworks */,
+				5336D62CD1B36949E831DC95 /* AVFoundation.framework in Frameworks */,
+				9FF535AE78C7498EE7B2D2AF /* Vision.framework in Frameworks */,
+				3D74229771CAC32B84D62E34 /* LockedCameraCapture.framework in Frameworks */,
+				272C796CA7BC7DBF16ED00EC /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C23E820DC68294C0AC6841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E315107F1A706BA160AB8288 /* Foundation.framework in Frameworks */,
+				C3F1238799F3283742A238B0 /* AVFoundation.framework in Frameworks */,
+				D2B3673B982377AFE46FE988 /* Vision.framework in Frameworks */,
+				8025E3948ED0396ECE2CEDDE /* ActivityKit.framework in Frameworks */,
+				40A8C7054A25F740384ECA10 /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95BE33213BAEC5203914311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEF49A9D95E2E9E066618F2 /* Foundation.framework in Frameworks */,
+				4525AB0CDDD1F08DD5F3921A /* WidgetKit.framework in Frameworks */,
+				7C8B8D035267A26220092D01 /* ActivityKit.framework in Frameworks */,
+				5C9A2D88D96DC6937664727C /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38206456B2B170C45ABCB3FF /* LockScreenMirrorCaptureExtension */ = {
+			isa = PBXGroup;
+			children = (
+				83FE6A138811784643F398EF /* LockScreenMirrorCaptureExtension.swift */,
+				5B0D43415CF23D40A996A6EF /* MirrorCaptureView.swift */,
+			);
+			path = LockScreenMirrorCaptureExtension;
+			sourceTree = "<group>";
+		};
+		4A4D7B51E6C3D431BC97DD01 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B8AEC4E8A8D398435666EFC /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55FB83C2F1BB80454B9ACE85 /* LockScreenMirrorWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				C2681DFAF08A3C2E07631947 /* MirrorWidgets.swift */,
+			);
+			path = LockScreenMirrorWidgets;
+			sourceTree = "<group>";
+		};
+		7246F00C2422F88E7F1026AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4D7B51E6C3D431BC97DD01 /* iOS */,
+				A63971452460D2016B758BE4 /* AVFoundation.framework */,
+				BF68F793761A0CADF937F271 /* Vision.framework */,
+				9E91C6453A671A909EA3DA44 /* ActivityKit.framework */,
+				088C00A6523DCF7298590D8A /* AppIntents.framework */,
+				7B6B781D16C0334719163E8C /* WidgetKit.framework */,
+				D38D175CC82F9DBFBA0747C0 /* LockedCameraCapture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD4F115723C096BBBBFEF4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D34858A6DA5220071E5318D /* LockScreenMirror.app */,
+				D5E2BE6BA946B9A141858C7C /* LockScreenMirrorWidgetsExtension.appex */,
+				B3C3485364ECE2976B5A542A /* LockScreenMirrorCaptureExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D108EB2F9BA3261106CCB088 = {
+			isa = PBXGroup;
+			children = (
+				BCD4F115723C096BBBBFEF4B /* Products */,
+				7246F00C2422F88E7F1026AA /* Frameworks */,
+				FB03681A24B4371FC5FE2670 /* LockScreenMirror */,
+				55FB83C2F1BB80454B9ACE85 /* LockScreenMirrorWidgets */,
+				38206456B2B170C45ABCB3FF /* LockScreenMirrorCaptureExtension */,
+				F326C6D6E31C2EFF3C0AEB12 /* Shared */,
+			);
+			sourceTree = "<group>";
+		};
+		F326C6D6E31C2EFF3C0AEB12 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E1EEC014567F95DB0D616958 /* MirrorShapeStyle.swift */,
+				362A76B3C87CD2054220C783 /* MirrorSharedConfig.swift */,
+				07F14252C2F31731F152ED4A /* MirrorLiveActivityModels.swift */,
+				2E78FC11F0B44DD0C601F281 /* StartMirrorCaptureIntent.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FB03681A24B4371FC5FE2670 /* LockScreenMirror */ = {
+			isa = PBXGroup;
+			children = (
+				7CF1144CEF591B6853C6E0BE /* AppDelegate.swift */,
+				82C72DDE81B9E566014DDEA9 /* SceneDelegate.swift */,
+				188FEBD3F05A401D9C1E0A3A /* AppCoordinator.swift */,
+				14167D5911D0E70ACF2AAD0E /* MirrorViewModel.swift */,
+				D7E83724D91D40B37ABC4F4A /* CameraSessionController.swift */,
+				D1B31AD18762CCD38DE08DEC /* CameraPreviewView.swift */,
+				9EAA32539655188C7B0F81C3 /* FaceTrackingManager.swift */,
+				BCED1E05236090311AB5D937 /* MirrorOverlay.swift */,
+				8C6E5593704BE6DD2196300F /* MirrorScreenView.swift */,
+				7201D975F966C7DE51FE0961 /* MirrorIntents.swift */,
+				C3B49A5ECFC42CCB5B833825 /* MirrorLiveActivityManager.swift */,
+				30787DCF807B60858E1FE081 /* Assets.xcassets */,
+			);
+			path = LockScreenMirror;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		338F05344EAEDDFE24A88817 /* LockScreenMirrorCaptureExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54AA48AAB0051C5B2537535 /* Build configuration list for PBXNativeTarget "LockScreenMirrorCaptureExtension" */;
+			buildPhases = (
+				F651B3556D99F44B6D12056B /* Sources */,
+				4A73DC01FCE814ED6C2EC4C9 /* Frameworks */,
+				C7169BA112988E42303C6743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockScreenMirrorCaptureExtension;
+			productName = LockScreenMirrorCaptureExtension;
+			productReference = B3C3485364ECE2976B5A542A /* LockScreenMirrorCaptureExtension.appex */;
+			productType = "com.apple.product-type.extensionkit-extension";
+		};
+		72C3B4B399A7B3B0E13F0A2A /* LockScreenMirror */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FF3120BBFF9A6574AE58E94 /* Build configuration list for PBXNativeTarget "LockScreenMirror" */;
+			buildPhases = (
+				1E2384B38FDBF35F184E8B41 /* Sources */,
+				95C23E820DC68294C0AC6841 /* Frameworks */,
+				F284E95FB47770EB11806485 /* Resources */,
+				AD8310B0437B22D6EC5C683F /* Embed App Extensions */,
+				C35E5ECBE1DF5167BFC54FED /* Embed ExtensionKit Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F3A4D016503654D63944D0A /* PBXTargetDependency */,
+				9EE7AEFD07F089A68A73A7F1 /* PBXTargetDependency */,
+			);
+			name = LockScreenMirror;
+			productName = LockScreenMirror;
+			productReference = 5D34858A6DA5220071E5318D /* LockScreenMirror.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B93E7AF5F47A4344349C80FC /* LockScreenMirrorWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6E28F755231D2C5A1A0D76 /* Build configuration list for PBXNativeTarget "LockScreenMirrorWidgetsExtension" */;
+			buildPhases = (
+				A14DE02210DECAF3856A3347 /* Sources */,
+				C95BE33213BAEC5203914311 /* Frameworks */,
+				61A9F3E1457634459236139F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockScreenMirrorWidgetsExtension;
+			productName = LockScreenMirrorWidgetsExtension;
+			productReference = D5E2BE6BA946B9A141858C7C /* LockScreenMirrorWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E9FA1029A301AFCE5B2A402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					338F05344EAEDDFE24A88817 = {
+						DevelopmentTeam = 3AUR32U2YW;
+						ProvisioningStyle = Automatic;
+					};
+					72C3B4B399A7B3B0E13F0A2A = {
+						DevelopmentTeam = 3AUR32U2YW;
+						ProvisioningStyle = Automatic;
+					};
+					B93E7AF5F47A4344349C80FC = {
+						DevelopmentTeam = 3AUR32U2YW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1DEF2881CBC6E605FEFFE182 /* Build configuration list for PBXProject "LockScreenMirror" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D108EB2F9BA3261106CCB088;
+			productRefGroup = BCD4F115723C096BBBBFEF4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72C3B4B399A7B3B0E13F0A2A /* LockScreenMirror */,
+				B93E7AF5F47A4344349C80FC /* LockScreenMirrorWidgetsExtension */,
+				338F05344EAEDDFE24A88817 /* LockScreenMirrorCaptureExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61A9F3E1457634459236139F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7169BA112988E42303C6743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F284E95FB47770EB11806485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A213A5386D7F92806AB13D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2384B38FDBF35F184E8B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824E4D5D6AF711F4AE357E1C /* AppDelegate.swift in Sources */,
+				23008ED57B001976A9384316 /* SceneDelegate.swift in Sources */,
+				73DDCF8F1E1F86FEE17109D6 /* AppCoordinator.swift in Sources */,
+				5B5663B9BCD3BF7A7AD04328 /* MirrorViewModel.swift in Sources */,
+				A873F9D9E38C9BB760E133C5 /* CameraSessionController.swift in Sources */,
+				5745F6CFF9A8148D02D08282 /* CameraPreviewView.swift in Sources */,
+				3DB6C122BFB4456D556188B0 /* FaceTrackingManager.swift in Sources */,
+				A3E165C072D449993C8766D3 /* MirrorOverlay.swift in Sources */,
+				72B0C0433B87824344222B53 /* MirrorScreenView.swift in Sources */,
+				723AB66B8B141D2FCE59F17F /* MirrorIntents.swift in Sources */,
+				F024C6F26A214E1C76C4EFA1 /* MirrorLiveActivityManager.swift in Sources */,
+				8845DE46DBD6B4164D8D7843 /* MirrorShapeStyle.swift in Sources */,
+				40DAD14886D26AA10B7DCCCC /* MirrorSharedConfig.swift in Sources */,
+				3E61294BA732D078BC5C72D6 /* MirrorLiveActivityModels.swift in Sources */,
+				92F75AA0883A318F080D84E9 /* StartMirrorCaptureIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14DE02210DECAF3856A3347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5BF14EE293B6A67E49CCD7 /* MirrorWidgets.swift in Sources */,
+				5DB7AE3532450D8DB070B32F /* MirrorShapeStyle.swift in Sources */,
+				CC78EE71180B15C3AB273DB5 /* MirrorLiveActivityModels.swift in Sources */,
+				016B7FC92F935DD9AA6CC829 /* StartMirrorCaptureIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F651B3556D99F44B6D12056B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54BCEE8FC664818FECA7478 /* LockScreenMirrorCaptureExtension.swift in Sources */,
+				387AC3A928CE7C1B7E53705C /* MirrorCaptureView.swift in Sources */,
+				A266183A49822890B19ECFB7 /* CameraSessionController.swift in Sources */,
+				DAEB3271C365B3974D454FDC /* CameraPreviewView.swift in Sources */,
+				5A17605DF540FCA6480B42BB /* FaceTrackingManager.swift in Sources */,
+				8F4B592B552D42FAC1EE0F83 /* MirrorOverlay.swift in Sources */,
+				2AFDF4B4068CD15D002C7C4A /* MirrorShapeStyle.swift in Sources */,
+				DCA41018501133510A5004F2 /* MirrorSharedConfig.swift in Sources */,
+				7A2B07BD2AAC8CDB43BDBB0D /* StartMirrorCaptureIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F3A4D016503654D63944D0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LockScreenMirrorWidgetsExtension;
+			target = B93E7AF5F47A4344349C80FC /* LockScreenMirrorWidgetsExtension */;
+			targetProxy = 903FB92C122987446D424FC0 /* PBXContainerItemProxy */;
+		};
+		9EE7AEFD07F089A68A73A7F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LockScreenMirrorCaptureExtension;
+			target = 338F05344EAEDDFE24A88817 /* LockScreenMirrorCaptureExtension */;
+			targetProxy = 81F49CF7670333FF8396FDC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DB3A44C0B5652BA728AA157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4A6DEF214163FD7FB8F1B878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUR32U2YW;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockScreenMirrorWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongzonghua.lockscreenmirror.dev.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		560B8E3D520D2DC5F2767009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = LockScreenMirror/LockScreenMirror.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUR32U2YW;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockScreenMirror/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongzonghua.lockscreenmirror.dev;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D56C40163E94A6C33D90E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = LockScreenMirror/LockScreenMirror.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUR32U2YW;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockScreenMirror/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongzonghua.lockscreenmirror.dev;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFD6EFAA56CF729AB2F983DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = LockScreenMirrorCaptureExtension/LockScreenMirrorCaptureExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUR32U2YW;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockScreenMirrorCaptureExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongzonghua.lockscreenmirror.dev.capture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C1A9E96ECFB4A1477A22190B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUR32U2YW;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockScreenMirrorWidgets/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongzonghua.lockscreenmirror.dev.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		D7C6DB4A4E210F03217CB6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = LockScreenMirrorCaptureExtension/LockScreenMirrorCaptureExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AUR32U2YW;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LockScreenMirrorCaptureExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tongzonghua.lockscreenmirror.dev.capture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E171AC5777C279B0D3246810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEF2881CBC6E605FEFFE182 /* Build configuration list for PBXProject "LockScreenMirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DB3A44C0B5652BA728AA157 /* Debug */,
+				E171AC5777C279B0D3246810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FF3120BBFF9A6574AE58E94 /* Build configuration list for PBXNativeTarget "LockScreenMirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				560B8E3D520D2DC5F2767009 /* Release */,
+				9D56C40163E94A6C33D90E00 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6E28F755231D2C5A1A0D76 /* Build configuration list for PBXNativeTarget "LockScreenMirrorWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6DEF214163FD7FB8F1B878 /* Release */,
+				C1A9E96ECFB4A1477A22190B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54AA48AAB0051C5B2537535 /* Build configuration list for PBXNativeTarget "LockScreenMirrorCaptureExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C6DB4A4E210F03217CB6E4 /* Release */,
+				AFD6EFAA56CF729AB2F983DD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E9FA1029A301AFCE5B2A402 /* Project object */;
+}
